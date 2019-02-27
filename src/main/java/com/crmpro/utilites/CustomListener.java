@@ -20,19 +20,20 @@ public class CustomListener extends BasePage implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
+		System.out.println(result.getMethod().getMethodName() +" (Passed)");
 
 		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		System.out.println("FAILED Test");
+		System.out.println(result.getMethod().getMethodName()+" (FAILED)");
 		testUtile_obj.takeScreenshot(result.getMethod().getMethodName());
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		System.out.println("The test Skipped");
+		System.out.println(result.getMethod().getMethodName() +" (Skipped)");
 
 		// TODO Auto-generated method stub
 		

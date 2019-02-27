@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="DESKTOP-15D6S6Q" name="com.crmpro.testCase.HelpPageTest" tests="6" failures="0" timestamp="27 Feb 2019 08:42:16 GMT" time="155.593" errors="0">
-  <testcase name="getLink" time="4.24" classname="com.crmpro.testCase.HelpPageTest"/>
-  <testcase name="printAllLink" time="10.85" classname="com.crmpro.testCase.HomePageTest"/>
-  <testcase name="varifyContactLink" time="2.4" classname="com.crmpro.testCase.HomePageTest"/>
-  <testcase name="varifyLogout" time="3.244" classname="com.crmpro.testCase.HomePageTest"/>
-  <testcase name="varifyTable" time="2.716" classname="com.crmpro.testCase.HomePageTest"/>
-  <testcase name="LogInTest" time="6.629" classname="com.crmpro.testCase.LogInPageTest"/>
+<testsuite hostname="DESKTOP-15D6S6Q" name="com.crmpro.testCase.HelpPageTest" tests="6" failures="0" timestamp="27 Feb 2019 08:52:10 GMT" time="151.051" errors="0">
+  <testcase name="getLink" time="3.575" classname="com.crmpro.testCase.HelpPageTest"/>
+  <testcase name="printAllLink" time="10.272" classname="com.crmpro.testCase.HomePageTest"/>
+  <testcase name="varifyContactLink" time="2.01" classname="com.crmpro.testCase.HomePageTest"/>
+  <testcase name="varifyLogout" time="3.509" classname="com.crmpro.testCase.HomePageTest"/>
+  <testcase name="varifyTable" time="2.77" classname="com.crmpro.testCase.HomePageTest"/>
+  <testcase name="LogInTest" time="8.508" classname="com.crmpro.testCase.LogInPageTest"/>
 </testsuite>
