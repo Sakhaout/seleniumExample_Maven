@@ -36,7 +36,7 @@ public class TestUtile extends BasePage {
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//copy that screenshot to a desire location by using copyFile() method of FileUtils class.
 		try {
-			FileUtils.copyFile(file, new File("C:\\Users\\Hossain Sakhaout\\Desktop\\JavaProgram\\com.crmpro\\screenshot\\"+fileName +".jpg"));
+			FileUtils.copyFile(file, new File("C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\com.crmpro\\screenshot\\"+fileName +".jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -62,7 +62,7 @@ public class TestUtile extends BasePage {
 	
 	//This method will read a list of data from excel file. 
 	public ArrayList<String> readExcelfile(int collumn) throws IOException {
-		String file = "C:\\Users\\Hossain Sakhaout\\Desktop\\JavaProgram\\com.crmpro\\TestData.xlsx\\";
+		String file = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\com.crmpro\\TestData.xlsx\\";
 		// First need to create an object of FileInputStream class.
 		FileInputStream fileInput = new FileInputStream(file);
 		//Create object for an workbook of that file.

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="155593" started-at="2019-02-27T03:39:40Z" finished-at="2019-02-27T03:42:16Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="155593" started-at="2019-02-27T03:39:40Z" finished-at="2019-02-27T03:42:16Z">
+      <class name="com.crmpro.testCase.HomePageTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21113" started-at="2019-02-27T03:40:21Z" finished-at="2019-02-27T03:40:42Z">
+        </test-method>
+        <test-method status="PASS" signature="printAllLink()" name="printAllLink" duration-ms="10850" started-at="2019-02-27T03:40:42Z" finished-at="2019-02-27T03:40:53Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="224" started-at="2019-02-27T03:40:53Z" finished-at="2019-02-27T03:40:53Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="17427" started-at="2019-02-27T03:40:53Z" finished-at="2019-02-27T03:41:11Z">
+        </test-method>
+        <test-method status="PASS" signature="varifyContactLink()" name="varifyContactLink" duration-ms="2400" started-at="2019-02-27T03:41:11Z" finished-at="2019-02-27T03:41:13Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="2134" started-at="2019-02-27T03:41:13Z" finished-at="2019-02-27T03:41:15Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="20522" started-at="2019-02-27T03:41:15Z" finished-at="2019-02-27T03:41:36Z">
+        </test-method>
+        <test-method status="PASS" signature="varifyLogout()" name="varifyLogout" duration-ms="3244" started-at="2019-02-27T03:41:36Z" finished-at="2019-02-27T03:41:39Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="296" started-at="2019-02-27T03:41:39Z" finished-at="2019-02-27T03:41:39Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="16941" started-at="2019-02-27T03:41:39Z" finished-at="2019-02-27T03:41:56Z">
+        </test-method>
+        <test-method status="PASS" signature="varifyTable()" name="varifyTable" duration-ms="2716" started-at="2019-02-27T03:41:56Z" finished-at="2019-02-27T03:41:59Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="233" started-at="2019-02-27T03:41:59Z" finished-at="2019-02-27T03:41:59Z">
+        </test-method>
+      </class>
+      <class name="com.crmpro.testCase.LogInPageTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="9787" started-at="2019-02-27T03:41:59Z" finished-at="2019-02-27T03:42:09Z">
+        </test-method>
+        <test-method status="PASS" signature="LogInTest()" name="LogInTest" duration-ms="6629" started-at="2019-02-27T03:42:09Z" finished-at="2019-02-27T03:42:15Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="263" started-at="2019-02-27T03:42:15Z" finished-at="2019-02-27T03:42:16Z">
+        </test-method>
+      </class>
+      <class name="com.crmpro.testCase.HelpPageTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="35656" started-at="2019-02-27T03:39:40Z" finished-at="2019-02-27T03:40:16Z">
+        </test-method>
+        <test-method status="PASS" signature="getLink()" name="getLink" duration-ms="4240" started-at="2019-02-27T03:40:16Z" finished-at="2019-02-27T03:40:20Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="878" started-at="2019-02-27T03:40:20Z" finished-at="2019-02-27T03:40:21Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
