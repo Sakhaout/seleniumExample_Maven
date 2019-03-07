@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 153.846 sec
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 83.815 s <<< FAILURE! - in TestSuite
+setUp(com.crmpro.testCase.HomePageTest)  Time elapsed: 42.898 s  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: 
+No frame element found by name or id mainpanel
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'DESKTOP-15D6S6Q', ip: '10.11.2.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at com.crmpro.testCase.HomePageTest.setUp(HomePageTest.java:36)
+

@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.crmpro.baseClass.BasePage;
@@ -26,11 +27,12 @@ public class HomePageTest extends BasePage {
 	}
 	
 	@BeforeMethod
-	public void setUp() throws IOException {
+	@Parameters({"userName","password"})
+	public void setUp(String userName, String password) throws IOException {
 		initialition();
 		HomePage_obj = new HomePage();
 		login_obj = new LogInPage();
-		login_obj.logInFunction("sakhaout","Sakhaout8");
+		login_obj.logInFunction(userName,password);
 		driver.switchTo().frame("mainpanel");
 		
 	}

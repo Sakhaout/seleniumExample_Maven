@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="CRMPRO Test suite">
+	<parameter name="userName" value="sakhaout" />
+	<parameter name="password" value="Sakhaout8" />
 	<test name="CRMPRO testing feature">
-		<classes>
 
+		<classes>
+			<class name="com.crmpro.testCase.HomePageTest"></class>
 			<class name="com.crmpro.testCase.LogInPageTest" />
+			<class name="com.crmpro.testCase.HelpPageTest"></class>
+			<class name="com.crmpro.testCase.ContactsPageTest"></class>
 		</classes>
+
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

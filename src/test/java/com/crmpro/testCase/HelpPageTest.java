@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.crmpro.baseClass.BasePage;
@@ -23,12 +24,13 @@ public class HelpPageTest extends BasePage {
 	}
 	
 	@BeforeMethod
-	public void setUp() {
+	@Parameters({"userName","password"})
+	public void setUp(String userName, String password) {
 		initialition();
 		loginpage_obj = new LogInPage();
 		helppage_obj = new HelpPage();
 		testUtiles_obj = new TestUtile();
-		loginpage_obj.logInFunction("sakhaout","Sakhaout8");
+		loginpage_obj.logInFunction(userName,password);
 		driver.switchTo().frame("mainpanel");
 	}
 	

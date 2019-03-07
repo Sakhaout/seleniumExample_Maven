@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Command line suite]">
-  <test name="Command line test(failed)" preserve-order="false">
+<suite verbose="0" name="Failed suite [CRMPRO Test suite]">
+  <parameter name="password" value="Sakhaout8"/>
+  <parameter name="userName" value="sakhaout"/>
+  <test name="CRMPRO testing feature(failed)" preserve-order="false">
+    <parameter name="password" value="Sakhaout8"/>
+    <parameter name="userName" value="sakhaout"/>
     <classes>
       <class name="com.crmpro.testCase.HomePageTest">
         <methods>
@@ -12,16 +16,16 @@
           <include name="varifyTable"/>
         </methods>
       </class>
-      <class name="com.crmpro.testCase.HelpPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="getLink"/>
-        </methods>
-      </class>
       <class name="com.crmpro.testCase.LogInPageTest">
         <methods>
+          <include name="closeDown"/>
           <include name="setUp"/>
-          <include name="LogInTest"/>
+        </methods>
+      </class>
+      <class name="com.crmpro.testCase.HelpPageTest">
+        <methods>
+          <include name="closeDown"/>
+          <include name="setUp"/>
         </methods>
       </class>
     </classes>

@@ -36,7 +36,7 @@ public class TestUtile extends BasePage {
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//copy that screenshot to a desire location by using copyFile() method of FileUtils class.
 		try {
-			FileUtils.copyFile(file, new File("C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\com.crmpro\\screenshot\\"+fileName +".jpg"));
+			FileUtils.copyFile(file, new File("C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\seleniumExampleWithMaven\\com.crmpro\\Screenshot\\"+fileName +".jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

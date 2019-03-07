@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,6 +53,12 @@ public void check_Link_connection(By element) {
 	}catch(IOException ioEx) {
 		ioEx.getStackTrace();
 }
+}
+
+public static String getCurrentTime() {
+	DateTimeFormatter time = DateTimeFormatter.ofPattern("yyyy/mm/dd HH:mm:ss");
+	LocalDateTime now = LocalDateTime.now();
+	return time.format(now);
 }
 
 	

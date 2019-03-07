@@ -1,5 +1,8 @@
 package com.crmpro.utilites;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -19,8 +22,7 @@ public class CustomListener extends BasePage implements ITestListener {
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		System.out.println(result.getMethod().getMethodName() +" (Passed)");
+		System.out.println(result.getMethod().getMethodName() +" (Passed)  " +CommonAction.getCurrentTime());
 
 		
 	}
@@ -33,10 +35,7 @@ public class CustomListener extends BasePage implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		System.out.println(result.getMethod().getMethodName() +" (Skipped)");
-
-		// TODO Auto-generated method stub
-		
+		System.out.println(result.getMethod().getMethodName() +" (Skipped)	" +CommonAction.getCurrentTime());		
 	}
 
 	@Override

@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.crmpro.baseClass.BasePage;
@@ -27,11 +28,12 @@ public class ContactsPageTest extends BasePage {
 	}
 	
 	@BeforeMethod
-	public void setUp() throws IOException {
+	@Parameters({"userName","password"})
+	public void setUp(String userName, String password) throws IOException {
 		initialition();
 		loginPage_obj = new LogInPage();
 		contactPage_obj = new Contacts();
-		loginPage_obj.logInFunction("sakhaout", "Sakhaout8");
+		loginPage_obj.logInFunction(userName,password);
 		driver.switchTo().frame("mainpanel");
 	}
 	

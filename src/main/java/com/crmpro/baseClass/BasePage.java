@@ -18,7 +18,7 @@ public class BasePage {
 	
 	public BasePage() {
 		try {
-			String properties_path = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\com.crmpro\\src\\main\\java\\com\\crmpro\\configur\\config.properties";
+			String properties_path = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\seleniumExampleWithMaven\\com.crmpro\\src\\main\\java\\com\\crmpro\\configur\\config.properties";
 			properties_obj = new Properties();
 			FileInputStream file_input = new FileInputStream(properties_path);
 			properties_obj.load(file_input);
