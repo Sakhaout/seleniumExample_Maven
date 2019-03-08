@@ -3,6 +3,7 @@ package com.crmpro.pages;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -18,6 +19,7 @@ import com.crmpro.utilites.CommonAction;
 public class HelpPage extends BasePage {
 	
 	CommonAction commonAction_obj = new CommonAction();
+	private static Logger log = Logger.getLogger(HelpPage.class);
 	
 	@FindBy(xpath = "//div[@class='noprint']//table[@cellpadding='0']//a[@class='topnavlink'][contains(text(),'Help')]")
 	private WebElement helpLink;
@@ -30,6 +32,7 @@ public class HelpPage extends BasePage {
 	}
 	
 	public void clickOnHelpLink() {
+		log.info("\tClicking on the HelpLink !!!");
 		helpLink.click();
 	}
 	

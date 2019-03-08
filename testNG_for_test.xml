@@ -7,9 +7,6 @@
 
 		<classes>
 			<class name="com.crmpro.testCase.LogInPageTest" />
-			<class name="com.crmpro.testCase.HomePageTest"></class>
-			<class name="com.crmpro.testCase.HelpPageTest"></class>
-			<class name="com.crmpro.testCase.ContactsPageTest"></class>
 		</classes>
 
 	</test> <!-- Test -->

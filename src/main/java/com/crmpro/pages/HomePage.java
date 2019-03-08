@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
@@ -20,6 +21,7 @@ import com.crmpro.utilites.TestUtile;
 
 
 public class HomePage extends BasePage{
+	private static Logger log = Logger.getLogger(HomePage.class);
 	TestUtile testUtile_Obj = new TestUtile();
 	Action action = new Action();
 	CommonAction commonAction_obj = new CommonAction();
@@ -57,6 +59,7 @@ public class HomePage extends BasePage{
 	}
 	
 	public void getTable(){
+		log.info("\tGetting data from table.");
 		try {
 			String before_xpath = "//*[@id=\"homebox_CALDAY\"]/table/tbody/tr[";
 			String after_path = "]/td[1]";
@@ -66,7 +69,7 @@ public class HomePage extends BasePage{
 
 			}
 		}catch(Exception ex) {
-			ex.getStackTrace();
+			log.error(ex.getStackTrace() +"\tGet failed to fatch data.");
 		}
 		
 	}
@@ -75,7 +78,9 @@ public class HomePage extends BasePage{
 	
 		
 	public void clickOnContactsLink() throws IOException {
+		log.info("\tMouse is hovering on contactsLink.");
 		action.actionMouseHover(contactsLink);
+		log.info("\tClicking on Combined From.");
 		combinedFrom.click();
 
 	}
@@ -89,6 +94,7 @@ public class HomePage extends BasePage{
 	
 	public void logout() {
 		logout.click();
+		log.debug("\tSuccesfully loged out.");
 	}
 	
 	

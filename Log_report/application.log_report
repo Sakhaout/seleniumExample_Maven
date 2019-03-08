@@ -1,0 +1,22 @@
+2019-03-07 21:42:46,642  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-07 21:42:54,414  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-07 21:42:54,557  INFO [main] HelpPage:35 - 	Clicking on the HelpLink !!!
+2019-03-07 21:42:56,761  INFO [main] CommonAction:31 - 	Get total size link.
+2019-03-07 21:42:57,014  INFO [main] CommonAction:42 - 	Get total size of active link.
+2019-03-07 21:42:57,061 ERROR [main] CommonAction:58 - [Ljava.lang.StackTraceElement;@268f106e	Failed to get link.
+2019-03-07 21:43:07,955  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-07 21:43:16,123  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-07 21:43:21,713  INFO [main] CommonAction:31 - 	Get total size link.
+2019-03-07 21:43:27,531  INFO [main] CommonAction:42 - 	Get total size of active link.
+2019-03-07 21:43:27,875  INFO [main] CommonAction:53 - 	Print all active link.
+2019-03-07 21:43:37,491  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-07 21:43:44,370  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-07 21:43:44,487  INFO [main] HomePage:81 - 	Mouse is hovering on contactsLink.
+2019-03-07 21:43:44,762  INFO [main] HomePage:83 - 	Clicking on Combined From.
+2019-03-07 21:43:56,508  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-07 21:44:02,745  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-07 21:44:15,896  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-07 21:44:22,195  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-07 21:44:22,873  INFO [main] HomePage:62 - 	Getting data from table.
+2019-03-07 21:44:34,875  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-07 21:44:41,668  INFO [main] LogInPage:40 - 	Login to the application

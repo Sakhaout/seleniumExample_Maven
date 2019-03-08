@@ -1,6 +1,7 @@
 package com.crmpro.pages;
 
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -9,6 +10,9 @@ import com.crmpro.baseClass.BasePage;
 
 
 public class LogInPage extends BasePage {
+	
+	
+	private static Logger log = Logger.getLogger(LogInPage.class);
 	
 	
 	@FindBy(xpath = "//input[@placeholder='Username']")
@@ -28,12 +32,14 @@ public class LogInPage extends BasePage {
 
 	
 	public HomePage logInFunction(String userID, String pass){
+		log.info("\tNow Login to the Application !!!");
 		try {
 			userName.sendKeys(userID);
 			password.sendKeys(pass);
 			logIn_button.click();
+			log.info("\tLogin to the application");
 		}catch(Exception ex) {
-			ex.getStackTrace();
+			log.error(ex.getStackTrace() +"\tFailed to Login");
 		}
 		
 		return new HomePage();

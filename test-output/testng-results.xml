@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="CRMPRO Test suite" duration-ms="140817" started-at="2019-03-07T05:07:36Z" finished-at="2019-03-07T05:09:57Z">
+  <suite name="CRMPRO Test suite" duration-ms="136756" started-at="2019-03-08T00:20:23Z" finished-at="2019-03-08T00:22:40Z">
     <groups>
     </groups>
-    <test name="CRMPRO testing feature" duration-ms="140817" started-at="2019-03-07T05:07:36Z" finished-at="2019-03-07T05:09:57Z">
+    <test name="CRMPRO testing feature" duration-ms="136756" started-at="2019-03-08T00:20:23Z" finished-at="2019-03-08T00:22:40Z">
       <class name="com.crmpro.testCase.HomePageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="18751" started-at="2019-03-07T05:07:37Z" finished-at="2019-03-07T05:07:55Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="setUp" is-config="true" duration-ms="20131" started-at="2019-03-08T00:20:43Z" finished-at="2019-03-08T00:21:03Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="printAllLink()[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="printAllLink" duration-ms="21779" started-at="2019-03-07T05:07:55Z" finished-at="2019-03-07T05:08:17Z">
+        <test-method status="PASS" signature="printAllLink()[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="printAllLink" duration-ms="10944" started-at="2019-03-08T00:21:03Z" finished-at="2019-03-08T00:21:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printAllLink -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="closeDown" is-config="true" duration-ms="452" started-at="2019-03-07T05:08:17Z" finished-at="2019-03-07T05:08:18Z">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="closeDown" is-config="true" duration-ms="391" started-at="2019-03-08T00:21:14Z" finished-at="2019-03-08T00:21:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="14942" started-at="2019-03-07T05:08:18Z" finished-at="2019-03-07T05:08:33Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="setUp" is-config="true" duration-ms="15856" started-at="2019-03-08T00:21:14Z" finished-at="2019-03-08T00:21:30Z">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="varifyContactLink()[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="varifyContactLink" duration-ms="2185" started-at="2019-03-07T05:08:33Z" finished-at="2019-03-07T05:08:35Z">
+        <test-method status="PASS" signature="varifyContactLink()[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="varifyContactLink" duration-ms="2689" started-at="2019-03-08T00:21:30Z" finished-at="2019-03-08T00:21:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varifyContactLink -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="closeDown" is-config="true" duration-ms="304" started-at="2019-03-07T05:08:35Z" finished-at="2019-03-07T05:08:35Z">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="closeDown" is-config="true" duration-ms="311" started-at="2019-03-08T00:21:33Z" finished-at="2019-03-08T00:21:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="17440" started-at="2019-03-07T05:08:35Z" finished-at="2019-03-07T05:08:52Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="setUp" is-config="true" duration-ms="16218" started-at="2019-03-08T00:21:33Z" finished-at="2019-03-08T00:21:49Z">
           <params>
             <param index="0">
               <value>
@@ -71,15 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="varifyLogout()[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="varifyLogout" duration-ms="3564" started-at="2019-03-07T05:08:52Z" finished-at="2019-03-07T05:08:56Z">
+        <test-method status="PASS" signature="varifyLogout()[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="varifyLogout" duration-ms="3419" started-at="2019-03-08T00:21:49Z" finished-at="2019-03-08T00:21:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varifyLogout -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="closeDown" is-config="true" duration-ms="1430" started-at="2019-03-07T05:08:56Z" finished-at="2019-03-07T05:08:57Z">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="closeDown" is-config="true" duration-ms="450" started-at="2019-03-08T00:21:53Z" finished-at="2019-03-08T00:21:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="setUp" is-config="true" duration-ms="17973" started-at="2019-03-07T05:08:57Z" finished-at="2019-03-07T05:09:15Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="setUp" is-config="true" duration-ms="19363" started-at="2019-03-08T00:21:53Z" finished-at="2019-03-08T00:22:13Z">
           <params>
             <param index="0">
               <value>
@@ -95,21 +95,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="varifyTable()[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="varifyTable" duration-ms="3904" started-at="2019-03-07T05:09:15Z" finished-at="2019-03-07T05:09:19Z">
+        <test-method status="PASS" signature="varifyTable()[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="varifyTable" duration-ms="2855" started-at="2019-03-08T00:22:13Z" finished-at="2019-03-08T00:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varifyTable -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HomePageTest@67b92f0a]" name="closeDown" is-config="true" duration-ms="343" started-at="2019-03-07T05:09:19Z" finished-at="2019-03-07T05:09:20Z">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HomePageTest@57baeedf]" name="closeDown" is-config="true" duration-ms="330" started-at="2019-03-08T00:22:15Z" finished-at="2019-03-08T00:22:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
       </class> <!-- com.crmpro.testCase.HomePageTest -->
       <class name="com.crmpro.testCase.LogInPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crmpro.testCase.LogInPageTest@2b9627bc]" name="setUp" is-config="true" duration-ms="10675" started-at="2019-03-07T05:09:20Z" finished-at="2019-03-07T05:09:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crmpro.testCase.LogInPageTest@42e26948]" name="setUp" is-config="true" duration-ms="12105" started-at="2019-03-08T00:20:23Z" finished-at="2019-03-08T00:20:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.LogInPageTest@2b9627bc]" name="LogInTest" duration-ms="5994" started-at="2019-03-07T05:09:30Z" finished-at="2019-03-07T05:09:36Z">
+        <test-method status="PASS" signature="LogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.LogInPageTest@42e26948]" name="LogInTest" duration-ms="7049" started-at="2019-03-08T00:20:35Z" finished-at="2019-03-08T00:20:43Z">
           <params>
             <param index="0">
               <value>
@@ -125,13 +125,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTest -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.LogInPageTest@2b9627bc]" name="closeDown" is-config="true" duration-ms="614" started-at="2019-03-07T05:09:36Z" finished-at="2019-03-07T05:09:37Z">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.LogInPageTest@42e26948]" name="closeDown" is-config="true" duration-ms="188" started-at="2019-03-08T00:20:43Z" finished-at="2019-03-08T00:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
       </class> <!-- com.crmpro.testCase.LogInPageTest -->
       <class name="com.crmpro.testCase.HelpPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HelpPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="16203" started-at="2019-03-07T05:09:37Z" finished-at="2019-03-07T05:09:53Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.testCase.HelpPageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="20276" started-at="2019-03-08T00:22:16Z" finished-at="2019-03-08T00:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -147,11 +147,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getLink()[pri:0, instance:com.crmpro.testCase.HelpPageTest@65e2dbf3]" name="getLink" duration-ms="3099" started-at="2019-03-07T05:09:53Z" finished-at="2019-03-07T05:09:56Z">
+        <test-method status="PASS" signature="getLink()[pri:0, instance:com.crmpro.testCase.HelpPageTest@343f4d3d]" name="getLink" duration-ms="2918" started-at="2019-03-08T00:22:36Z" finished-at="2019-03-08T00:22:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLink -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HelpPageTest@65e2dbf3]" name="closeDown" is-config="true" duration-ms="981" started-at="2019-03-07T05:09:56Z" finished-at="2019-03-07T05:09:57Z">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.testCase.HelpPageTest@343f4d3d]" name="closeDown" is-config="true" duration-ms="1076" started-at="2019-03-08T00:22:39Z" finished-at="2019-03-08T00:22:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->

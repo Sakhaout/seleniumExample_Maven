@@ -9,6 +9,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -23,6 +24,8 @@ import com.crmpro.baseClass.BasePage;
 
 public class TestUtile extends BasePage {
 	
+	private static Logger log = Logger.getLogger(TestUtile.class);
+	
 	public TestUtile() {
 		super();
 	}
@@ -32,13 +35,14 @@ public class TestUtile extends BasePage {
 	
 	//This method will take Screenshot
 	public final void takeScreenshot(String fileName){
+		log.info("\tTaking screenshot of failed test case.");
 		//Take screenshot by using TakesScreenshot interface and store it into file.
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//copy that screenshot to a desire location by using copyFile() method of FileUtils class.
 		try {
 			FileUtils.copyFile(file, new File("C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\seleniumExampleWithMaven\\com.crmpro\\Screenshot\\"+fileName +".jpg"));
 		} catch (IOException e) {
-			e.printStackTrace();
+			log.error(e.getStackTrace() +"\\tFailed to take screenshot.");
 		}
 
 	}
@@ -62,7 +66,9 @@ public class TestUtile extends BasePage {
 	
 	//This method will read a list of data from excel file. 
 	public ArrayList<String> readExcelfile(int collumn) throws IOException {
+		log.info("\tGetting data from Excel file.");
 		String file = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\com.crmpro\\TestData.xlsx\\";
+		log.debug("\tGate file path for testData.");
 		// First need to create an object of FileInputStream class.
 		FileInputStream fileInput = new FileInputStream(file);
 		//Create object for an workbook of that file.
@@ -70,6 +76,7 @@ public class TestUtile extends BasePage {
 		XSSFWorkbook workbook = new XSSFWorkbook(fileInput);
 		//Use XSSFSheet to get the sheet of that workbook.
 		XSSFSheet sheet = workbook.getSheet("Sheet1");
+		log.debug("\tGat sheet name of excel file.");
 		//Iterate in the row of the selected sheet.
 		Iterator <Row> rowItr = sheet.iterator();
 		rowItr.next(); //Skep the first row.

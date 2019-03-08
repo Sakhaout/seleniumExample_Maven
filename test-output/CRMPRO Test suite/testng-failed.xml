@@ -5,13 +5,13 @@
   <parameter name="userName" value="sakhaout"/>
   <test thread-count="5" name="CRMPRO testing feature(failed)">
     <classes>
-      <class name="com.crmpro.testCase.HomePageTest">
+      <class name="com.crmpro.testCase.LogInPageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="varifyTable"/>
           <include name="closeDown"/>
+          <include name="setUp"/>
+          <include name="LogInTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.crmpro.testCase.HomePageTest -->
+      </class> <!-- com.crmpro.testCase.LogInPageTest -->
     </classes>
   </test> <!-- CRMPRO testing feature(failed) -->
 </suite> <!-- Failed suite [CRMPRO Test suite] -->
