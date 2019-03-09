@@ -1,6 +1,22 @@
-2019-03-09 01:47:41,971  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 01:47:42,748 ERROR [main] LogInPage:42 - [Ljava.lang.StackTraceElement;@6e9a5ed8	Failed to Login
-2019-03-09 01:48:34,321  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 01:48:35,021 ERROR [main] LogInPage:42 - [Ljava.lang.StackTraceElement;@6c4906d3	Failed to Login
-2019-03-09 01:49:43,336  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 01:49:51,605  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 01:59:04,924  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 01:59:10,207  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 01:59:11,235  INFO [main] HelpPage:35 - 	Clicking on the HelpLink !!!
+2019-03-09 01:59:13,672  INFO [main] CommonAction:31 - 	Get total size link.
+2019-03-09 01:59:13,839  INFO [main] CommonAction:42 - 	Get total size of active link.
+2019-03-09 01:59:13,855 ERROR [main] CommonAction:58 - [Ljava.lang.StackTraceElement;@268f106e	Failed to get link.
+2019-03-09 01:59:24,217  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 01:59:29,551  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 01:59:35,021  INFO [main] CommonAction:31 - 	Get total size link.
+2019-03-09 01:59:41,004  INFO [main] CommonAction:42 - 	Get total size of active link.
+2019-03-09 01:59:41,521  INFO [main] CommonAction:53 - 	Print all active link.
+2019-03-09 01:59:51,267  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 01:59:57,235  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 01:59:57,334  INFO [main] HomePage:81 - 	Mouse is hovering on contactsLink.
+2019-03-09 01:59:57,644  INFO [main] HomePage:83 - 	Clicking on Combined From.
+2019-03-09 02:00:09,942  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 02:00:17,481  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 02:00:31,971  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 02:00:39,770  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 02:00:39,910  INFO [main] HomePage:62 - 	Getting data from table.
+2019-03-09 02:00:54,093  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 02:01:01,836  INFO [main] LogInPage:40 - 	Login to the application
