@@ -40,10 +40,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
-
-
-
 	</build>
+
 
 	<dependencies>
 
@@ -61,15 +59,12 @@
 			<version>4.0.1</version>
 		</dependency>
 
-
-
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.1.1</version>
 		</dependency>
-
 
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
@@ -99,5 +94,13 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.16</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
 	</dependencies>
 </project>

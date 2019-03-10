@@ -94,7 +94,7 @@ public class HomePage extends BasePage{
 	
 	public void logout() {
 		logout.click();
-		log.debug("\tSuccesfully loged out.");
+		log.info("\tSuccesfully loged out!!!");
 	}
 	
 	

@@ -20,6 +20,7 @@ import com.crmpro.utilites.*;
 public class LogInPageTest extends BasePage{
 	LogInPage loginPage_Obj;
 	TestUtile testUtile_Obj;
+	private static Logger log = Logger.getLogger(LogInPageTest.class);
 	
 	public LogInPageTest() {
 		super();	
@@ -45,6 +46,7 @@ public class LogInPageTest extends BasePage{
 	@AfterMethod
 	public void closeDown() {
 		driver.close();
+		log.info("\tBrowser closed!!!");
 	}
 
 }

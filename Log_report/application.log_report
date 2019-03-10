@@ -1,22 +1,39 @@
-2019-03-09 01:59:04,924  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 01:59:10,207  INFO [main] LogInPage:40 - 	Login to the application
-2019-03-09 01:59:11,235  INFO [main] HelpPage:35 - 	Clicking on the HelpLink !!!
-2019-03-09 01:59:13,672  INFO [main] CommonAction:31 - 	Get total size link.
-2019-03-09 01:59:13,839  INFO [main] CommonAction:42 - 	Get total size of active link.
-2019-03-09 01:59:13,855 ERROR [main] CommonAction:58 - [Ljava.lang.StackTraceElement;@268f106e	Failed to get link.
-2019-03-09 01:59:24,217  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 01:59:29,551  INFO [main] LogInPage:40 - 	Login to the application
-2019-03-09 01:59:35,021  INFO [main] CommonAction:31 - 	Get total size link.
-2019-03-09 01:59:41,004  INFO [main] CommonAction:42 - 	Get total size of active link.
-2019-03-09 01:59:41,521  INFO [main] CommonAction:53 - 	Print all active link.
-2019-03-09 01:59:51,267  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 01:59:57,235  INFO [main] LogInPage:40 - 	Login to the application
-2019-03-09 01:59:57,334  INFO [main] HomePage:81 - 	Mouse is hovering on contactsLink.
-2019-03-09 01:59:57,644  INFO [main] HomePage:83 - 	Clicking on Combined From.
-2019-03-09 02:00:09,942  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 02:00:17,481  INFO [main] LogInPage:40 - 	Login to the application
-2019-03-09 02:00:31,971  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 02:00:39,770  INFO [main] LogInPage:40 - 	Login to the application
-2019-03-09 02:00:39,910  INFO [main] HomePage:62 - 	Getting data from table.
-2019-03-09 02:00:54,093  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
-2019-03-09 02:01:01,836  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 20:44:42,535  INFO [main] BasePage:37 - 	Launching Browser!!!
+2019-03-09 20:45:00,213  INFO [main] BasePage:50 - 	Application is opening!!!
+2019-03-09 20:45:13,862  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 20:45:24,318  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 20:45:24,959  INFO [main] HelpPage:35 - 	Clicking on the HelpLink !!!
+2019-03-09 20:45:26,658  INFO [main] HelpPageTest:52 - 	Windows handle opened second window.
+2019-03-09 20:45:34,864  INFO [main] CommonAction:31 - 	Get total size link.
+2019-03-09 20:45:35,027  INFO [main] CommonAction:42 - 	Get total size of active link.
+2019-03-09 20:45:35,043 ERROR [main] CommonAction:58 - [Ljava.lang.StackTraceElement;@3e08ff24	Failed to get link.
+2019-03-09 20:45:39,370  INFO [main] HelpPageTest:60 - 	Browser closed!!!
+2019-03-09 20:45:39,374  INFO [main] BasePage:37 - 	Launching Browser!!!
+2019-03-09 20:45:46,336  INFO [main] BasePage:50 - 	Application is opening!!!
+2019-03-09 20:45:53,771  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 20:46:02,937  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 20:46:08,573  INFO [main] CommonAction:31 - 	Get total size link.
+2019-03-09 20:46:14,686  INFO [main] CommonAction:42 - 	Get total size of active link.
+2019-03-09 20:46:15,234  INFO [main] CommonAction:53 - 	Print all active link.
+2019-03-09 20:46:15,836  INFO [main] HomePageTest:75 - 	Browser closed!!!
+2019-03-09 20:46:15,841  INFO [main] BasePage:37 - 	Launching Browser!!!
+2019-03-09 20:46:22,622  INFO [main] BasePage:50 - 	Application is opening!!!
+2019-03-09 20:46:29,108  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 20:46:40,812  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 20:46:40,968  INFO [main] HomePage:81 - 	Mouse is hovering on contactsLink.
+2019-03-09 20:46:41,431  INFO [main] HomePage:83 - 	Clicking on Combined From.
+2019-03-09 20:46:45,340  INFO [main] HomePageTest:75 - 	Browser closed!!!
+2019-03-09 20:46:45,343  INFO [main] BasePage:37 - 	Launching Browser!!!
+2019-03-09 20:46:52,390  INFO [main] BasePage:50 - 	Application is opening!!!
+2019-03-09 20:47:02,350  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 20:47:12,950  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 20:47:17,700  INFO [main] HomePage:97 - 	Succesfully loged out!!!
+2019-03-09 20:47:18,424  INFO [main] HomePageTest:75 - 	Browser closed!!!
+2019-03-09 20:47:18,427  INFO [main] BasePage:37 - 	Launching Browser!!!
+2019-03-09 20:47:24,961  INFO [main] BasePage:50 - 	Application is opening!!!
+2019-03-09 20:47:34,526  INFO [main] LogInPage:35 - 	Now Login to the Application !!!
+2019-03-09 20:47:51,121  INFO [main] LogInPage:40 - 	Login to the application
+2019-03-09 20:47:51,265  INFO [main] HomePage:62 - 	Getting data from table.
+2019-03-09 20:47:54,927  INFO [main] HomePageTest:75 - 	Browser closed!!!
+2019-03-09 20:47:54,930  INFO [main] BasePage:37 - 	Launching Browser!!!
+2019-03-09 20:48:00,980  INFO [main] BasePage:50 - 	Application is opening!!!

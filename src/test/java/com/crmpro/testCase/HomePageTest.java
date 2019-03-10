@@ -2,6 +2,7 @@ package com.crmpro.testCase;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,6 +21,7 @@ public class HomePageTest extends BasePage {
 	
 	private HomePage HomePage_obj;
 	private LogInPage login_obj;
+	private Logger log = Logger.getLogger(HomePageTest.class);
 
 
 	public HomePageTest(){
@@ -70,6 +72,7 @@ public class HomePageTest extends BasePage {
 	@AfterMethod
 	public void closeDown() {
 		driver.close();
+		log.info("\tBrowser closed!!!");
 	}
 	
 

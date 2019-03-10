@@ -1,5 +1,6 @@
 package com.crmpro.testCase;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,9 +16,10 @@ import com.crmpro.utilites.*;
 
 @Listeners(CustomListener.class)
 public class HelpPageTest extends BasePage {
-	LogInPage loginpage_obj;
-	HelpPage helppage_obj;
-	TestUtile testUtiles_obj;
+	private LogInPage loginpage_obj;
+	private HelpPage helppage_obj;
+	private TestUtile testUtiles_obj;
+	private static Logger log = Logger.getLogger(HelpPageTest.class);
 	
 	public HelpPageTest() {
 		super();
@@ -47,6 +49,7 @@ public class HelpPageTest extends BasePage {
 	public void getLink() {
 		helppage_obj.clickOnHelpLink();
 		testUtiles_obj.windowsHandle(2);
+		log.info("\tWindows handle opened second window.");
 		helppage_obj.getAllLink();
 		
 	}
@@ -54,6 +57,7 @@ public class HelpPageTest extends BasePage {
 	@AfterMethod
 	public void closeDown() {
 		driver.quit();
+		log.info("\tBrowser closed!!!");
 	}
 
 }
