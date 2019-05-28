@@ -4,8 +4,8 @@
 	<listeners>
 		<listener class-name="com.crmpro.utilites.CustomListener"/>
 	<listeners>
-	<parameter name="userName" value="sakhaout" />
-	<parameter name="password" value="Sakhaout8" />
+	<parameter name="userName" value="USERNAME" />
+	<parameter name="password" value="PASSWORD" />
 	<test name="CRMPRO testing feature">
 
 		<classes>
